@@ -4,7 +4,7 @@ import { finished } from 'node:stream/promises'
 interface Env {}
 
 const sheetId = '1ZRBE-9i4_WmMmO5h1pIMwrF1owW95Qc-ElLcmf0ct3g'
-const sheetUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv`
+const sheetUrl = `https://docs.google.com/spreadsheets/d/${1798792162}/export?format=csv`
 
 async function getSheetContents() {
   const response = await fetch(sheetUrl)
